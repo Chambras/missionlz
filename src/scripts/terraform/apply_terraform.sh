@@ -80,5 +80,4 @@ if [[ $extra_vars != "notset" ]]; then
    apply_command+=" -var-file=${extra_vars_real}"
 fi 
 
-
 eval "${apply_command}"

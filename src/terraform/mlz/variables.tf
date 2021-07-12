@@ -46,6 +46,8 @@ variable "hub_subid" {
 }
 
 variable "hub_rgname" {
+  type        = string
+  default     = "rg-saca-marcelo"
   description = "Resource Group for the deployment"
 }
 
@@ -293,6 +295,8 @@ variable "tier0_subid" {
 }
 
 variable "tier0_rgname" {
+  type        = string
+  default     = "rg-t0-marcelo"
   description = "Resource Group for the deployment"
 }
 
@@ -380,6 +384,8 @@ variable "tier1_subid" {
 }
 
 variable "tier1_rgname" {
+  type        = string
+  default     = "rg-t1-marcelo"
   description = "Resource Group for the deployment"
 }
 
@@ -477,6 +483,8 @@ variable "tier2_subid" {
 }
 
 variable "tier2_rgname" {
+  type        = string
+  default     = "rg-t2-marcelo"
   description = "Resource Group for the deployment"
 }
 
